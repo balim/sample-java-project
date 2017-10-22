@@ -106,6 +106,8 @@
     </javadoc>
   </target>
 
+ <!-- 
+
   <target name="format" description="Run the indenter on all source files.">
     <apply executable="astyle">
       <arg value="--mode=java"/>
@@ -114,6 +116,7 @@
       <fileset dir="${test.dir}" includes="**/*.java"/>
     </apply>
   </target>
+-->
 
   <target name="tags" description="Generate a TAGS file for your editor.">
     <delete file="TAGS"/>
