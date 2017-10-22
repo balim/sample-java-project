@@ -13,8 +13,8 @@ import lombok.Setter;
  * The main class of the application. It contains the main() method,
  * the first method called.
  */
-@NoArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@AllArgsConstructor
 public class SampleJavaProject implements Runnable {
 
     /** The delay between printed messages. */
